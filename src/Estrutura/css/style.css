@@ -1,0 +1,54 @@
+/* Estilos do conteudo do corpo Article
+--------------------------------- */
+.novocorpo{
+    width: 100%;
+
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.titulo1{
+    color: tomato;
+}
+.titulo2{
+    color: blue;
+}
+.ttp{
+    text-align: justify;
+    color: black;
+    font-size: 1.2em;
+}
+
+/*--------------------------------- */
+/* Estilos do conteudo do lado direito com imagem
+--------------------------------- */
+.banner{
+    width: 80%;
+   
+    float: right;
+}
+/*--------------------------------- */
+/* Estilos do conteudo do rodapé
+--------------------------------- */
+
+.roda1{
+    color: white;
+  
+   
+    border-radius: 25px;
+    background: royalblue;
+}
+/*--------------------------------- */
+
+/*--------------------------------- */
+/* Iniciando modelo responsivo
+--------------------------------- */
+@media screen and (max-width: 600px) and (min-width: 150px){
+
+    .banner{
+        width: 100%;
+       margin-top: 6%;
+       margin-bottom: 2%;
+    }
+}
+
+/*--------------------------------- */
